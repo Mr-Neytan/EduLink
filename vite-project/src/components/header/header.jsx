@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <>
-      HELLO WORLD
+      <h1>Website Title</h1>
     </>
   )
 }
