@@ -3,9 +3,13 @@ import React from "react"
 
 function ElementDivs(props) {
     return (
-      <div>
+      <div class="container">
         {props.elements.map(function(element, index) {
-          return <div key={index}>{element}</div>;
+          return <div key={index} class="box">
+          <img src={element["picture"]}></img>
+          <h1>{element["name"]}</h1>
+          <p>{element["description"]}</p>
+          </div>
         })}
       </div>
     );
