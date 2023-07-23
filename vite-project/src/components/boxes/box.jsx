@@ -36,7 +36,7 @@ function ElementDivs(props) {
 function Box(elements = ["Empty"]) {
   return (
     <div>
-      <h1>Subjects</h1>
+      <h1 class="sub">Subjects</h1>
       <ElementDivs elements={elements} />
     </div>
   );
