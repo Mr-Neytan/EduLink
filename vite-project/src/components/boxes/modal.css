@@ -6,14 +6,16 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     
-  }
+}
+
   
 .modal-head{
   padding: 6px 16px;
-  background-color: aquamarine;
+  background-color: #141234;
   display: flex;
   justify-content: space-between;
   font-size: 32px;
+  color:#36d1dc;
 }
 
 .modal-content {
@@ -28,6 +30,23 @@
   animation-duration: 0.4s
 }
 
+.modal-body {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.modal-body {
+  text-align: left;
+  font-size: 30px;
+}
+
+.modal-body a{
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+
 @keyframes animatetop {
   from {top: -30%; opacity: 0}
   to {top: 30%; opacity: 1}
@@ -35,6 +54,7 @@
 
 .close{
   padding: 0 6px;
+  border-radius: 4px;
 }
 
 .close:hover {

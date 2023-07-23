@@ -13,7 +13,7 @@ const Modal = (props) => {
     </div>
     <div class="modal-body">
     {props.links.map(function(link, index){
-        return <p key={index}>{link}</p>
+        return <li key={index}><a href={link["hyperlink"]} target="_blank"> {link["site"]}</a></li>
     
       })}
     </div>

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #141234;
+    height: auto;
+    display: block;
+    margin: auto;
+    color: #36d1dc;
+}
+
+.header h1{
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+.header p{
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    height: 100%;
+    max-height: 313px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
