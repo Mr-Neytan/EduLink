@@ -18,7 +18,7 @@ This project is able to scale up easily since the components can easily render a
 <code>{"name":"/Subject Name", "description":"/Description", "picture":"/thumbnail","links":[{"site": "name of website", "hyperlink": "link to website"}]}</code>
 
 ## Future Improvements
-
+In future updates, it would be nice to add a submission bin for learning materials and resources. However, that might require money for storage and other interactive features.
 
 ## Challenges
 The biggest challenge was learning how to implement the features in React. This is my first project using this tech stack so there was a lot of spontaneous learning. I am most proud of the apps ability to render multiple boxes from one list.
