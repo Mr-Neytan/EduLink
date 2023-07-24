@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    
+    margin: 0;
 }
 
 .box {
@@ -14,7 +14,7 @@
     border: 1px solid rgba(0,0,0,.125);
     background-color: white;
     border-radius: 0.25rem;
-    margin: 25px 14px;
+    margin: 30px 14px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .2s;
     
@@ -41,6 +41,5 @@
 
 .sub {
     text-align: center;
-    padding-top: 20px;
     font-size: 40px;
 }
