@@ -11,6 +11,7 @@ import Header from './components/header/header.jsx'
 import './index.css'
 import Box from './components/boxes/box.jsx'
 import web_details from './sub_details.jsx'
+import Footer from "./components/footer/footer.jsx"
 
 let element = <Header/>
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -21,3 +22,7 @@ let webs = web_details()
 let box = Box(webs)
 const new_root = ReactDOM.createRoot(document.getElementById('box'))
 new_root.render(box)
+
+let footer = <Footer/>
+const footer_root = ReactDOM.createRoot(document.getElementById("footer"))
+footer_root.render(footer)
