@@ -21,7 +21,7 @@
 .modal-content {
   position:fixed;
   background: white;
-  width: 50%;
+  width: 70%;
   min-height: 200px;
   height: auto;
   top:30%;
@@ -34,20 +34,24 @@
 .modal-body {
   text-align: left;
   margin-left: 10px;
-  font-size: 30px;
-  
+  font-size: 300px;
 }
 
 .modal-body {
   text-align: left;
-  font-size: 30px;
-  padding-top: 20px;
+  font-size: 28px;
+  padding-top: 18px;
 }
 
 .modal-body a{
   text-decoration: none;
   color: black;
   margin: 0;
+}
+
+.modal-body a:hover{
+  text-decoration: underline;
+  
 }
 
 @keyframes animatetop {
